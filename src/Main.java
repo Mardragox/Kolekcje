@@ -100,6 +100,8 @@ public class Main {
 
 
         Scanner klawiatura = new Scanner(System.in);
+
+        /*
         System.out.println("Wprowadź 6 liczb");
 
         ArrayList <Integer> listaZKlawiatury = new ArrayList<>();
@@ -114,8 +116,23 @@ public class Main {
         {
             System.out.print(element + ", ");
         }
+*/
+        //trafione czyli takie które są we wpisanych i wylosowanych
 
+        ArrayList <Integer> listaWpisywana = new ArrayList<>();
+        ArrayList <Integer> listaTololotek = new ArrayList<>();
 
+        for (int i = 0; i < 6; i++) {
+            int kula = (int)(Math.random()*10);
+            listaTololotek.add(kula);
+            int wpisanaLiczba = klawiatura.nextInt();
+            listaWpisywana.add(wpisanaLiczba);
+
+            if(wpisanaLiczba == kula){
+                System.out.println("zgadłeś");
+            }
+
+        }
 
     }
 }
