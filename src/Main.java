@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -22,5 +25,38 @@ public class Main {
             System.out.print(element + ", ");
 
         }
+
+        //wypełnianie kolekcji wartościami losowymi
+
+        /*
+        koelkcja może przechowywać tylko typy złożone
+        np Integer
+        kolekcja nie musi mieć zdefiniowanego rozmiaru
+        rozmiar może się zmieniać w trakcie
+
+        List -> ArrayList, LinkedList,
+        Set -> HashSet
+        Map
+
+
+         */
+
+        List<Integer> listaLiczbLosowych = new ArrayList<>();
+
+        for (int i = 0; i < 6; i++) {
+           int liczba = (int) ((Math.random() * 100 )+ 1);
+            listaLiczbLosowych.add(liczba);
+
+        }
+        System.out.println("");
+        System.out.println("Wylosowana Lista");
+        for (Integer element: listaLiczbLosowych)
+        {
+
+            System.out.print(element + ", ");
+
+        }
+
+
     }
 }
