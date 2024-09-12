@@ -44,7 +44,7 @@ public class Main {
         List<Integer> listaLiczbLosowych = new ArrayList<>();
 
         for (int i = 0; i < 6; i++) {
-           int liczba = (int) ((Math.random() * 100 )+ 1);
+           int liczba = (int) ((Math.random() * 10));
             listaLiczbLosowych.add(liczba);
 
         }
@@ -56,7 +56,24 @@ public class Main {
             System.out.print(element + ", ");
 
         }
+        System.out.println(listaLiczbLosowych);
 
+        //losowanie do list bez powtórzeń
+
+        ArrayList<Integer> listaLosowychBezPowtorzen = new ArrayList<>();
+        int liczba;
+        for (int i = 0; i < 6; i++) {
+            liczba = (int)(Math.random()*10+1);
+
+            while(listaLosowychBezPowtorzen.contains(liczba)){
+                liczba = (int)(Math.random()*10+1);
+            }
+
+
+            listaLosowychBezPowtorzen.add(liczba);
+        }
+
+        System.out.println(listaLosowychBezPowtorzen);
 
     }
 }
