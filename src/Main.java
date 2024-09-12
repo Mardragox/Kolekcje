@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -94,5 +95,27 @@ public class Main {
             zbiorLiczbLosowych.add(liczba);
         }
         System.out.println(zbiorLiczbLosowych);
+
+        //lista liczb wpisywanych z klawiatury
+
+
+        Scanner klawiatura = new Scanner(System.in);
+        System.out.println("Wprowadź 6 liczb");
+
+        ArrayList <Integer> listaZKlawiatury = new ArrayList<>();
+
+        for (int i = 0; i < 6; i++) {
+            int wpisanaLiczba = klawiatura.nextInt();
+            listaZKlawiatury.add(wpisanaLiczba);
+
+        }
+        System.out.println("Wprowadzone liczby");
+        for (Integer element:listaZKlawiatury)
+        {
+            System.out.print(element + ", ");
+        }
+
+
+
     }
 }
