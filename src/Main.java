@@ -20,7 +20,7 @@ public class Main {
      * @return - lista z wylosowanymi wartościami
      */
     private static ArrayList<Integer> wylosujLiczby(int ile){
-
+        System.out.println("Wylosowane liczby z funkcji prywatnej: ");
         ArrayList<Integer> listaLosowychBezPowtorzen = new ArrayList<>();
         int liczba;
         for (int i = 0; i < ile; i++) {
