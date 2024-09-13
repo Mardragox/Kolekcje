@@ -1,0 +1,47 @@
+[33mcommit 99e6bae6bd0398fca652b778c9dda49b21b5c2ff[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Mardragox <krzysieksot@gmail.com>
+Date:   Thu Sep 12 11:44:03 2024 +0200
+
+    generowanie liczb losowych a potem próbowanie zgadnąć i jeżeli jest to pisze jaka. pozdro nie działa
+
+[33mcommit de14a7c94163cb3e432ff3b4d41f176873aa3372[m
+Author: Mardragox <krzysieksot@gmail.com>
+Date:   Thu Sep 12 11:29:51 2024 +0200
+
+    Wpisywanie w listę liczb które wpisał uzytkownik ręcznie
+
+[33mcommit a7f3737dd3157180a80c9502f33e6e13c47600e8[m
+Author: Mardragox <krzysieksot@gmail.com>
+Date:   Thu Sep 12 11:23:43 2024 +0200
+
+    generowanie liczb do zbiorów
+
+[33mcommit 029c961e4c9c4d47a1a5f467c1d55dd832cea79c[m
+Author: Mardragox <krzysieksot@gmail.com>
+Date:   Thu Sep 12 11:10:38 2024 +0200
+
+    Generowanie liczb losowych wraz z wpisaniem do listy tak aby żadna z nich się nie powtarzała
+
+[33mcommit 667c5809197de7b736a45f9103a616bbb16ab213[m
+Author: Mardragox <krzysieksot@gmail.com>
+Date:   Thu Sep 12 10:50:52 2024 +0200
+
+    Losowanie losowych liczb do listy
+
+[33mcommit f8353a05e015b9d601b9c1d49fb32ef2ab8e81b4[m
+Author: Mardragox <krzysieksot@gmail.com>
+Date:   Thu Sep 12 10:37:40 2024 +0200
+
+    Wpisywanie liczb z foreach
+
+[33mcommit 824b7688c9aa0a99ee515d4255bf862789c3bf09[m
+Author: Mardragox <krzysieksot@gmail.com>
+Date:   Thu Sep 12 10:17:58 2024 +0200
+
+    zmiana
+
+[33mcommit 661e0d0ccb452167086a31e0594dbf6fc0298be9[m
+Author: Mardragox <krzysieksot@gmail.com>
+Date:   Thu Sep 12 10:15:30 2024 +0200
+
+    commit
