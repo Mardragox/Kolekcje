@@ -17,7 +17,7 @@ public class Gra {
         wylosowane = new ArrayList<>();
         int liczba;
         for (int i = 0; i < ile; i++) {
-            liczba = (int)(Math.random()*10);
+            liczba = (int)(Math.random()*100);
 
             while(wylosowane.contains(liczba)){
                 liczba = (int)(Math.random()*10+1);
